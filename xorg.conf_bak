@@ -1,0 +1,9 @@
+Section "Monitor"
+	Identifier "xxx1"
+	Option "Primary" "true"
+EndSection
+
+Section "Monitor"
+	Identifier "xxx2"
+	Option "RightOf" "xxx1"
+EndSection
